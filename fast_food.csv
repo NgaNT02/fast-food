@@ -1,0 +1,189 @@
+﻿No.,Brand,Type,Name,Carbs,Protein,Fat,Calo,Data Source
+1,KFC,Chicken,original recipe chicken drum,7,15.4,9.8,178,https://www.kfc.com.sg/nutrition-allergen
+2,KFC,Chicken,original recipe rib,16.9,30.7,24.9,415,https://www.kfc.com.sg/nutrition-allergen
+3,KFC,Chicken,original recipe thigh,14.1,23.3,21.5,343,https://www.kfc.com.sg/nutrition-allergen
+4,KFC,Chicken,original recipe wing,8.6,20.9,15.8,259,https://www.kfc.com.sg/nutrition-allergen
+5,KFC,Chicken,hot & crispy chicken drumstick,8,17,13,212,https://www.kfc.com.sg/nutrition-allergen
+6,KFC,Chicken,hot & crispy chicken keel,14,30,24,390,https://www.kfc.com.sg/nutrition-allergen
+7,KFC,Chicken,hot & crispy chicken rib,10,17,16,220,https://www.kfc.com.sg/nutrition-allergen
+8,KFC,Chicken,hot & crispy chicken thigh,13,26,17,399,https://www.kfc.com.sg/nutrition-allergen
+9,KFC,Chicken,hot & crispy chicken wing,6,12,13,190,https://www.kfc.com.sg/nutrition-allergen
+10,KFC,Burger,cheesy zinger stacker,58,54,73,1106, https://www.kfc.com.sg/nutrition-allergen
+11,KFC,Burger,zinger,47,28,37,633,https://www.kfc.com.sg/nutrition-allergen
+12,KFC,Burger,original recipe burger,52.7,22.9,29.3,517,https://www.kfc.com.sg/nutrition-allergen
+13,KFC,Burger,original recipe stacker,71.1,44.1,54,896, https://www.kfc.com.sg/nutrition-allergen
+14,KFC,Burger,bbq cheese zinger,49.2,26,25.4,521,https://www.kfc.com.sg/nutrition-allergen
+15,KFC,Burger,bbq tenders burger,53.8,27.5,24.6,496,https://www.kfc.com.sg/nutrition-allergen
+16,KFC,Wraps,pocket bandito,49,26,36,622,https://www.kfc.com.sg/nutrition-allergen
+17,KFC,Bowl,original recipe rice bowl,62,13,16,440,https://www.kfc.com.sg/nutrition-allergen
+18,KFC,Bowl,curry rice bowl,72,14,19,515,https://www.kfc.com.sg/nutrition-allergen
+19,KFC,Bowl,famous bowl,55,11,10,356,https://www.kfc.com.sg/nutrition-allergen
+20,KFC,Sides,hot & crispy tenders (3 pcs),14,31,14,304,https://www.kfc.com.sg/nutrition-allergen
+21,KFC,Sides,hot & crispy tenders (5 pcs),23,51,23,507,https://www.kfc.com.sg/nutrition-allergen
+22,KFC,Sides,nuggets (6 pcs),14,14,14,239,https://www.kfc.com.sg/nutrition-allergen
+23,KFC,Sides,nuggets (20 pcs),45,48,47,796,https://www.kfc.com.sg/nutrition-allergen
+24,KFC,Sides,popcorn chicken,27,21,28,446,https://www.kfc.com.sg/nutrition-allergen
+25,KFC,Sides,whipped potato (reg),10,2,0.3,51,https://www.kfc.com.sg/nutrition-allergen
+26,KFC,Sides,whipped potato (med),21,4,0.6,102, https://www.kfc.com.sg/nutrition-allergen
+27,KFC,Sides,coleslaw (reg),8,1,7,98,https://www.kfc.com.sg/nutrition-allergen
+28,KFC,Sides,coleslaw (med),15,2,14,197,https://www.kfc.com.sg/nutrition-allergen
+29,KFC,Sides,french fries (reg),38,4,8,242,https://www.kfc.com.sg/nutrition-allergen
+30,KFC,Sides,french fries (med),54,5,12,343,https://www.kfc.com.sg/nutrition-allergen
+31,KFC,Sides,french fries (lrg),58,6,12,367,https://www.kfc.com.sg/nutrition-allergen
+32,KFC,Sides,cheese fries,61,8,36,592,https://www.kfc.com.sg/nutrition-allergen
+33,KFC,Sides,kfc froyo - natural cone,24,0.7,1,107,https://www.kfc.com.sg/nutrition-allergen
+34,KFC,Sides,kfc froyo - natural cup,27,0.5,1,118,https://www.kfc.com.sg/nutrition-allergen
+35,KFC,Sides,portugese egg tart (1pc),14.6,2.5,10.8,166,https://www.kfc.com.sg/nutrition-allergen
+36,KFC,KFC Breakfast,mushroom o.r. twister,39.67,13.92,14.89,348.4,https://www.kfc.com.sg/nutrition-allergen
+37,KFC,KFC Breakfast,pancakes platter,48,22.2,15.4,423,https://www.kfc.com.sg/nutrition-allergen
+38,KFC,KFC Breakfast,pancakes deluxe platter,67.5,21,23.5,588,https://www.kfc.com.sg/nutrition-allergen
+39,KFC,KFC Breakfast,hearty o.r. platter,42.9,35.6,22.5,516,https://www.kfc.com.sg/nutrition-allergen
+40,KFC,KFC Breakfast,waffle & chicken platter,48.1,38,29.5,610,https://www.kfc.com.sg/nutrition-allergen
+41,KFC,KFC Breakfast,waffle & saute mushroom platter,37.6,27.1,24.9,476.45,https://www.kfc.com.sg/nutrition-allergen
+42,KFC,KFC Breakfast,original recipe riser & egg burger,45.7,31.1,25.2,532,https://www.kfc.com.sg/nutrition-allergen
+43,KFC,KFC Breakfast,original recipe riser burger,45.4,24,20.6,461,https://www.kfc.com.sg/nutrition-allergen
+44,KFC,KFC Breakfast,kfcchicken burger,34.6,18.5,18.3,416,https://www.kfc.com.sg/nutrition-allergen
+45,KFC,KFC Breakfast,original recipe porridge,31,11,6,221,https://www.kfc.com.sg/nutrition-allergen
+46,KFC,KFC Breakfast,original recipe platter,55,26,24,556,https://www.kfc.com.sg/nutrition-allergen
+47,KFC,KFC Breakfast,american twister,51,14,23,461,https://www.kfc.com.sg/nutrition-allergen
+48,KFC,KFC Breakfast,hash brown,12,1,5,102,https://www.kfc.com.sg/nutrition-allergen
+49,KFC,Drinks,coca-cola original taste less sugar (reg),26.3,0,0,105,https://www.kfc.com.sg/nutrition-allergen
+50,KFC,Drinks,coca-cola original taste less sugar (med),38.3,0,0,153,https://www.kfc.com.sg/nutrition-allergen
+51,KFC,Drinks,1.5L coca-cola original taste less sugar,4.6,0,0,19,https://www.kfc.com.sg/nutrition-allergen
+52,KFC,Drinks,coca-cola zero sugar (reg),0,0,0,0,https://www.kfc.com.sg/nutrition-allergen
+53,KFC,Drinks,coca-cola zero sugar (med),0,0,0,0,https://www.kfc.com.sg/nutrition-allergen
+54,KFC,Drinks,1.5L coca-cola zero sugar,0,0,0,0,https://www.kfc.com.sg/nutrition-allergen
+55,KFC,Drinks,fanta grape (reg),16.1,0,0,66.5,https://www.kfc.com.sg/nutrition-allergen
+56,KFC,Drinks,fanta grape (med),23.5,0,0,96.9,https://www.kfc.com.sg/nutrition-allergen
+57,KFC,Drinks,heaven & earth iced lemon tea (reg),37.5,0,0,150.5,https://www.kfc.com.sg/nutrition-allergen
+58,KFC,Drinks,heaven & earth iced lemon tea (med),54.6,0,0,219.3,https://www.kfc.com.sg/nutrition-allergen
+59,KFC,Drinks,sprite (reg),16.1,0,0,66.5,https://www.kfc.com.sg/nutrition-allergen
+60,KFC,Drinks,sprite (med),23.5,0,0,96.9,https://www.kfc.com.sg/nutrition-allergen
+61,KFC,Drinks,sjora mango peach,27,0.9,0,113,https://www.kfc.com.sg/nutrition-allergen
+62,KFC,Drinks,sjora mango peach,37,1,0,154,https://www.kfc.com.sg/nutrition-allergen
+63,KFC,Drinks,iced milo (reg),31,5,5,188,https://www.kfc.com.sg/nutrition-allergen
+64,KFC,Drinks,iced milo (med),42,7,6,254,https://www.kfc.com.sg/nutrition-allergen
+65,KFC,Drinks,hot milo,21,2,4,128,https://www.kfc.com.sg/nutrition-allergen
+66,KFC,Drinks,magnolia fresh milk,10,6,8,132,https://www.kfc.com.sg/nutrition-allergen
+67,KFC,Drinks,mineral water,0,0,0,0,https://www.kfc.com.sg/nutrition-allergen
+68,Burger King,Flame Grilled Burgers,Classic Melt,42.6,33.7,42.9,684.5,https://www.bk.com/nutrition-explorer
+69,Burger King,Flame Grilled Burgers,Bacon Melt,43.7,39.7,49.3,776.6,https://www.bk.com/nutrition-explorer
+70,Burger King,Flame Grilled Burgers,Spicy Melt,43,33.8,42,687,https://www.bk.com/nutrition-explorer
+71,Burger King,Flame Grilled Burgers,Shroom n' Swiss Melt,38,30,41,640,https://www.bk.com/nutrition-explorer
+72,Burger King,Flame Grilled Burgers,"Build Your Own Sandwich - Whopper (Pain)	",48.2,27.9,21.2,483.8,https://www.bk.com/nutrition-explorer
+73,Burger King,Flame Grilled Burgers,Whopper,54.8,34.7,39.5,679,https://www.bk.com/nutrition-explorer
+74,Burger King,Flame Grilled Burgers,Double Whopper,54.8,55.7,58.5,929,https://www.bk.com/nutrition-explorer
+75,Burger King,Flame Grilled Burgers,Triple Whopper,57.4,75.8,78.5,1181.3,https://www.bk.com/nutrition-explorer
+76,Burger King,Flame Grilled Burgers,Bacon King,55.4,66.4,81,1200,https://www.bk.com/nutrition-explorer
+77,Burger King,Flame Grilled Burgers,Single Impossible King,57.2,29.3,22,551.1,https://www.bk.com/nutrition-explorer
+78,Burger King,Flame Grilled Burgers,Impossible Whopper,62.8,31.7,32.5,639,https://www.bk.com/nutrition-explorer
+79,Burger King,Flame Grilled Burgers,Whopper Jr.,30.4,16.9,18.3,334.5,https://www.bk.com/nutrition-explorer
+80,Burger King,Flame Grilled Burgers,Big King,32.4,26.2,30.3,492.1,https://www.bk.com/nutrition-explorer
+81,Burger King,Flame Grilled Burgers,Single Quarter Pound King,49.2,32.3,29,591.1,https://www.bk.com/nutrition-explorer
+82,Burger King,Flame Grilled Burgers,Double Cheeseburger,30.1,24.1,21,400.6,https://www.bk.com/nutrition-explorer
+83,Burger King,Flame Grilled Burgers,Cheeseburger,30.1,15.1,13,290.6,https://www.bk.com/nutrition-explorer
+84,Burger King,Flame Grilled Burgers,Bacon Cheeseburger,30.2,18.1,16,340.6,https://www.bk.com/nutrition-explorer
+85,Burger King,Flame Grilled Burgers,Bacon Double Cheeseburger,30.2,27.1,24,440.6,https://www.bk.com/nutrition-explorer
+86,Burger King,Flame Grilled Burgers,Rodeo Burger,38,13.2,13.7,328.6,https://www.bk.com/nutrition-explorer
+87,Burger King,Flame Grilled Burgers,Hamburger,29.1,13.1,10,250.6,https://www.bk.com/nutrition-explorer
+88,Burger King,Flame Grilled Burgers,Texas Double Whopper,55.1,62.5,70,1061.6,https://www.bk.com/nutrition-explorer
+89,Burger King,Chicken & More,9 Pc. Spicy Chicken Fries,17,14,14,250,https://www.bk.com/nutrition-explorer
+90,Burger King,Chicken & More,BK Royal Crispy Chicken,54.4,34.1,31.3,606.8,https://www.bk.com/nutrition-explorer
+91,Burger King,Chicken & More,Spicy BK Royal Crispy Chicken,58.4,34.1,47.3,766.8,https://www.bk.com/nutrition-explorer
+92,Burger King,Chicken & More,Bacon and Swiss BK Royal Crispy Chicken,56.6,46.6,48.3,820,https://www.bk.com/nutrition-explorer
+93,Burger King,Chicken & More,Build Your Own Sandwich - Whopper (Plain),48.2,27.9,21.2,483.8,https://www.bk.com/nutrition-explorer
+94,Burger King,Chicken & More,Original Chicken Sandwich,63.4,23.5,39.3,682,https://www.bk.com/nutrition-explorer
+95,Burger King,Chicken & More,9 pc Chicken Fries,20,15,13,260,https://www.bk.com/nutrition-explorer
+96,Burger King,Chicken & More,16 Pc. Chicken Nuggets,45,37,49,770,https://www.bk.com/nutrition-explorer
+97,Burger King,Chicken & More,8 Pc. Chicken Nuggets,22.6,18.5,24.7,385.4,https://www.bk.com/nutrition-explorer
+98,Burger King,Chicken & More,4 Pc. Chicken Nuggets,11.3,9.2,12.3,192.7,https://www.bk.com/nutrition-explorer
+99,Burger King,Chicken & More,Big Fish,58.5,19.2,30.3,572.6,https://www.bk.com/nutrition-explorer
+100,Burger King,Chicken & More,Chicken Jr.,34.2,11.9,30.4,453.3,https://www.bk.com/nutrition-explorer
+101,Burger King,Chicken & More,Tacos,48.6,11.2,13.5,423.2,https://www.bk.com/nutrition-explorer
+102,Burger King,Sides,9 Pc. Spicy Chicken Fries,17,14,14,250,https://www.bk.com/nutrition-explorer
+103,Burger King,Sides,Medium Classic Fries,54,5,16,370,https://www.bk.com/nutrition-explorer
+104,Burger King,Sides,Medium Onion Rings,48,4,16,360,https://www.bk.com/nutrition-explorer
+105,Burger King,Sides,9 pc Chicken Fries,20,15,13,260,https://www.bk.com/nutrition-explorer
+106,Burger King,Sides,8 Pc. Chicken Nuggets,22.6,18.5,24.7,385.4,https://www.bk.com/nutrition-explorer
+107,Burger King,Sides,4 Pc. Chicken Nuggets,11.3,9.2,12.3,192.7,https://www.bk.com/nutrition-explorer
+108,Burger King,Sides,4 Pc Mozzarella Sticks,36.5,13.4,14.4,328.7,https://www.bk.com/nutrition-explorer
+109,Burger King,Sides,MOTTS Applesauce,13,0,0,50,https://www.bk.com/nutrition-explorer
+110,Burger King,Sides,Taco,48.6,11.2,13.5,423.2,https://www.bk.com/nutrition-explorer
+111,Burger King,Drinks & Coffee,Medium Coca-Cola,96,0,0,350,https://www.bk.com/nutrition-explorer
+112,Burger King,Drinks & Coffee,FS Coca-Cola - Med,96.7,0,0,386.5,https://www.bk.com/nutrition-explorer
+113,Burger King,Drinks & Coffee,Medium Diet Coke,0,0,0,0,https://www.bk.com/nutrition-explorer
+114,Burger King,Drinks & Coffee,FS Diet Coke - Med,0.7,0.1,0,2.4,https://www.bk.com/nutrition-explorer
+115,Burger King,Drinks & Coffee,Medium Coca-Cola Zero,0.3,0.1,0,1.7,https://www.bk.com/nutrition-explorer
+116,Burger King,Drinks & Coffee,OREO Cookie Shake,107.4,12.9,16.9,636.4,https://www.bk.com/nutrition-explorer
+117,Burger King,Drinks & Coffee,Bottled Nestle Pure Life Purified Water,0,0,0,0,https://www.bk.com/nutrition-explorer
+118,Burger King,Drinks & Coffee,Medium Sweetened Iced Tea,75,0.2,0,300,https://www.bk.com/nutrition-explorer
+119,Burger King,Drinks & Coffee,Medium Unsweetened Iced Tea,0,0,0,0,https://www.bk.com/nutrition-explorer
+120,Burger King,Drinks & Coffee,Medium Sprite,88,0,0,330,https://www.bk.com/nutrition-explorer
+121,Burger King,Drinks & Coffee,FS Sprite - Med,89.1,0,0,356.7,https://www.bk.com/nutrition-explorer
+122,Burger King,Drinks & Coffee,Medium Sprite Zero,0,0.1,0,6.4,https://www.bk.com/nutrition-explorer
+123,Burger King,Drinks & Coffee,Medium Barq's Root Beer,89.5,0,0,358.8,https://www.bk.com/nutrition-explorer
+124,Burger King,Drinks & Coffee,Medium Diet Barq's Root Beer,0.7,0,0,2.6,https://www.bk.com/nutrition-explorer
+125,Burger King,Drinks & Coffee,Medium Dr Pepper,94,0,0,350,https://www.bk.com/nutrition-explorer
+126,Burger King,Drinks & Coffee,FS Dr Pepper - Med,94,0,0,350,https://www.bk.com/nutrition-explorer
+127,Burger King,Drinks & Coffee,Medium Fanta Orange,81.2,0,0,322.8,https://www.bk.com/nutrition-explorer
+128,Burger King,Drinks & Coffee,FS Fanta Orange - Med,81.2,0,0,322.8,https://www.bk.com/nutrition-explorer
+129,Burger King,Drinks & Coffee,Medium Mello Yello,105.1,0,0,415.1,https://www.bk.com/nutrition-explorer
+130,Burger King,Drinks & Coffee,Medium Powerade Zero,1.6,0.1,0,7,https://www.bk.com/nutrition-explorer
+131,Burger King,Drinks & Coffee,Medium Hi-C Fruit Punch,102,0,0,410,https://www.bk.com/nutrition-explorer
+132,Burger King,Drinks & Coffee,Medium Hi-C Pink Lemonade,84.9,0,0,321.3,https://www.bk.com/nutrition-explorer
+133,Burger King,Drinks & Coffee,"Capri Sun Apple Juice	",20.4,0.4,0,83.4,https://www.bk.com/nutrition-explorer
+134,Burger King,Drinks & Coffee,Frozen CokeÂ® Med,44,0,0,160,https://www.bk.com/nutrition-explorer
+135,Burger King,Drinks & Coffee,Frozen FantaÂ® Wild Cherry Med,43,0,0,160,https://www.bk.com/nutrition-explorer
+136,Burger King,Drinks & Coffee,Frozen FantaÂ® Blue Raspberry Med,65.9,0,0,243.3,https://www.bk.com/nutrition-explorer
+137,Burger King,Drinks & Coffee,Medium BK Café,0,0,0,0.1,https://www.bk.com/nutrition-explorer
+138,Burger King,Drinks & Coffee,Medium BK Cafe Decaf,0,0,0,0,https://www.bk.com/nutrition-explorer
+139,Burger King,Drinks & Coffee,Plain Iced Coffee Medium,27.7,1.5,9.4,201.4,https://www.bk.com/nutrition-explorer
+140,Burger King,Drinks & Coffee,"Fat Free Milk	",14.5,9.6,0,96.8,https://www.bk.com/nutrition-explorer
+141,Burger King,Drinks & Coffee,Simply Orange Juice,37,2,0,160,https://www.bk.com/nutrition-explorer
+142,Burger King,Drinks & Coffee,20oz Bottle Coca-Cola,65,0,0,240,https://www.bk.com/nutrition-explorer
+143,Burger King,Drinks & Coffee,20oz Bottle Diet Coke,0,0,0,0,https://www.bk.com/nutrition-explorer
+144,Burger King,Drinks & Coffee,20oz Bottle Sprite,64,0,0,230,https://www.bk.com/nutrition-explorer
+145,Burger King,Sweets,"Hershey Pie Shake	8",128.5,14.8,30.7,857.1,https://www.bk.com/nutrition-explorer
+146,Burger King,Sweets,Cookie Butter Shake,119,15,48,969,https://www.bk.com/nutrition-explorer
+147,Burger King,Sweets,HERSHEY'S Sundae Pie,31.7,2.9,17.1,295.1,https://www.bk.com/nutrition-explorer
+148,Burger King,Sweets,OREO Cookie Shake,107.4,12.9,16.9,636.4,https://www.bk.com/nutrition-explorer
+149,Burger King,Sweets,Chocolate OREO,115.6,13.6,17.4,674.6,https://www.bk.com/nutrition-explorer
+150,Burger King,Sweets,Chocolate Shake,102,12.9,14,588.2,https://www.bk.com/nutrition-explorer
+151,Burger King,Sweets,Vanilla Shake,96,12,14,560,https://www.bk.com/nutrition-explorer
+152,Burger King,Sweets,Strawberry Shake,108,12.4,13.9,610.7,https://www.bk.com/nutrition-explorer
+153,Burger King,Sweets,Soft Serve Cup,27.8,4.4,4.9,175,https://www.bk.com/nutrition-explorer
+154,Burger King,Sweets,Soft Serve Cone,33.5,4.9,5.1,201.2,https://www.bk.com/nutrition-explorer
+155,Burger King,Sweets,2 Chocolate Chip Cookies,23,1.9,7.7,161.9,https://www.bk.com/nutrition-explorer
+156,Burger King,Breakfast Meals,Sausage,30.8,21.9,37.5,552.2,https://www.bk.com/nutrition-explorer
+157,Burger King,Breakfast Meals,Bacon,30.8,17.9,24.5,412.2,https://www.bk.com/nutrition-explorer
+158,Burger King,Breakfast Meals,Ham,31.8,20.9,22.5,412.2,https://www.bk.com/nutrition-explorer
+159,Burger King,Breakfast Meals,Fully Loaded Croissan'Wich - Bacon,30.9,31.3,41.8,622.8,https://www.bk.com/nutrition-explorer
+160,Burger King,Breakfast Meals,Double Sausage,31,33.6,60.6,802.3,https://www.bk.com/nutrition-explorer
+161,Burger King,Breakfast Meals,Bacon and Sausage,29.7,24.9,40.9,584.1,https://www.bk.com/nutrition-explorer
+162,Burger King,Breakfast Meals,Sausage,31.7,19.7,38.9,550.4,https://www.bk.com/nutrition-explorer
+163,Burger King,Breakfast Meals,Bacon,31.8,15,25.9,415.1,https://www.bk.com/nutrition-explorer
+164,Burger King,Breakfast Meals,Ham,32.8,18.8,23.5,411.7,https://www.bk.com/nutrition-explorer
+165,Burger King,Breakfast Meals,Fully Loaded Buttermilk Biscuit,33.9,31,43.9,648.7,https://www.bk.com/nutrition-explorer
+166,Burger King,Breakfast Meals,Egg-Normous Burrito,68.3,35.4,46,825.6,https://www.bk.com/nutrition-explorer
+167,Burger King,Breakfast Meals,5 French Toast Sticks,78.7,6.2,20.3,521.2,https://www.bk.com/nutrition-explorer
+168,Burger King,Breakfast Meals,Pancake & Sausage Platter,42.1,9.1,23.2,412.5,https://www.bk.com/nutrition-explorer
+169,Burger King,Breakfast Meals,Pancake Platter,41.9,1.7,6.9,235.1,https://www.bk.com/nutrition-explorer
+170,Burger King,Breakfast Sandwiches,"Sausage, Egg, & Cheese Croissan'Wich",21.9,37.5,30.8,552.2,https://www.bk.com/nutrition-explorer
+171,Burger King,Breakfast Sandwiches,"Bacon, Egg, & Cheese Croissan'Wich",17.9,24.5,30.8,412.2,https://www.bk.com/nutrition-explorer
+172,Burger King,Breakfast Sandwiches,"Ham, Egg, & Cheese Croissan'Wich",20.9,22.5,31.8,412.2,https://www.bk.com/nutrition-explorer
+173,Burger King,Breakfast Sandwiches,"Double Sausage, Egg, & Cheese Croissan'Wich",33.6,60.6,31,802.3,https://www.bk.com/nutrition-explorer
+174,Burger King,Breakfast Sandwiches,"Bacon and Sausage, Egg, and Cheese Croissan'wich",24.9,40.9,29.7,584.1,https://www.bk.com/nutrition-explorer
+175,Burger King,Breakfast Sandwiches,"Fully Loaded Croissan'Wich - Bacon, Ham, Sausage",31.3,41.8,30.9,622.8,https://www.bk.com/nutrition-explorer
+176,Burger King,Breakfast Sandwiches,Egg & Cheese Croissan'wich,30.8,14.9,21,372.2,https://www.bk.com/nutrition-explorer
+177,Burger King,Breakfast Sandwiches,"Sausage, Egg, & Cheese Biscuit",31.7,19.7,38.9,550.4,https://www.bk.com/nutrition-explorer
+178,Burger King,Breakfast Sandwiches,"Bacon, Egg, & Cheese Biscuit",31.8,15.3,25.9,415.1,https://www.bk.com/nutrition-explorer
+179,Burger King,Breakfast Sandwiches,"Ham, Egg, & Cheese Biscuit",32.8,18.8,23.5,411.7,https://www.bk.com/nutrition-explorer
+180,Burger King,Breakfast Sandwiches,"Double Sausage, Egg, & Cheese Biscuit",33.9,33.3,65.5,852.7,https://www.bk.com/nutrition-explorer
+181,Burger King,Breakfast Sandwiches,"Bacon, Sausage, Egg, & Cheese Biscuit",32.6,24.6,45.8,634.5,https://www.bk.com/nutrition-explorer
+182,Burger King,Breakfast Sandwiches,Fully Loaded Buttermilk Biscuit,33.9,31,43.9,648.7,https://www.bk.com/nutrition-explorer
+183,Burger King,Breakfast Sandwiches,"Egg & Cheese Biscuit	",31.6,12.3,22.6,373,https://www.bk.com/nutrition-explorer
+184,Burger King,Breakfast Sandwiches,Sausage Biscuit,30.1,11.5,31.1,440.5,https://www.bk.com/nutrition-explorer
+185,Burger King,Burritos,Egg-Normous Burrito,68.3,35.4,46,825.6,https://www.bk.com/nutrition-explorer
+186,Burger King,Burritos,Breakfast Burrito Jr.,28.9,15.6,26.4,415.8,https://www.bk.com/nutrition-explorer
+187,Burger King,Breakfast Sides,Hashbrowns Medium,53.6,4.3,35.5,544.3,https://www.bk.com/nutrition-explorer
+188,Burger King,Breakfast Sides,3 French Toast Sticks,56.8,3.7,12,350.6,https://www.bk.com/nutrition-explorer
