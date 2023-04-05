@@ -121,20 +121,20 @@ class Management:
         self.Carbs_entry.place(x=50,y=305, width=200, height=30)
 
         self.Protein = Label(self.frame_1, text="Protein", font=(self.font_2, 18, "bold"), bg=self.color_1, fg=self.color_4).place(x=300,y=270)
-        self.Protein = Entry(self.frame_1, bg=self.color_4, fg=self.color_3)
-        self.Protein.place(x=310,y=305, width=200, height=30)
+        self.Protein_entry = Entry(self.frame_1, bg=self.color_4, fg=self.color_3)
+        self.Protein_entry.place(x=310,y=305, width=200, height=30)
 
         self.Fat = Label(self.frame_1, text="Fat", font=(self.font_2, 18, "bold"), bg=self.color_1, fg=self.color_4).place(x=560,y=270)
-        self.Fat = Entry(self.frame_1, bg=self.color_4, fg=self.color_3)
-        self.Fat.place(x=570,y=305, width=200, height=30)
+        self.Fat_entry = Entry(self.frame_1, bg=self.color_4, fg=self.color_3)
+        self.Fat_entry.place(x=570,y=305, width=200, height=30)
 
         self.Calo = Label(self.frame_1, text="Calo", font=(self.font_2, 18, "bold"), bg=self.color_1, fg=self.color_4).place(x=820,y=270)
         self.Calo_entry = Entry(self.frame_1, bg=self.color_4, fg=self.color_3)
         self.Calo_entry.place(x=830,y=305, width=200, height=30)
 
         self.dataSource = Label(self.frame_1, text="Data Source", font=(self.font_2, 18, "bold"), bg=self.color_1, fg=self.color_4).place(x=40,y=390)
-        self.dataSource = Entry(self.frame_1, bg=self.color_4, fg=self.color_3)
-        self.dataSource.place(x=50,y=425, width=980, height=30)
+        self.dataSource_entry = Entry(self.frame_1, bg=self.color_4, fg=self.color_3)
+        self.dataSource_entry.place(x=50,y=425, width=980, height=30)
 
         self.submit_bt_1 = Button(self.frame_1, text='Submit', font=(self.font_1, 15), bd=2, command=self.submit, cursor="hand2", bg=self.color_4,fg=self.color_3).place(x=490,y=550,width=100)
 
@@ -218,11 +218,11 @@ class Management:
         self.Carbs_entry.place(x=40,y=200, width=200)
 
         self.Protein = Label(self.frame_1, text="Protein", font=(self.font_2, 15, "bold"), bg=self.color_1, fg=self.color_4).place(x=300,y=170)
-        self.Protein = Entry(self.frame_1, bg=self.color_4, fg=self.color_3)
+        self.Protein_entry = Entry(self.frame_1, bg=self.color_4, fg=self.color_3)
         self.Protein.place(x=300,y=200, width=200)
 
         self.Fat = Label(self.frame_1, text="Fat", font=(self.font_2, 15, "bold"), bg=self.color_1, fg=self.color_4).place(x=560,y=170)
-        self.Fat = Entry(self.frame_1, bg=self.color_4, fg=self.color_3)
+        self.Fat_entry = Entry(self.frame_1, bg=self.color_4, fg=self.color_3)
         self.Fat.place(x=560,y=200, width=200)
 
         self.Calo = Label(self.frame_1, text="Calo", font=(self.font_2, 15, "bold"), bg=self.color_1, fg=self.color_4).place(x=820,y=170)
@@ -230,8 +230,8 @@ class Management:
         self.Calo_entry.place(x=820,y=200, width=200)
 
         self.dataSource = Label(self.frame_1, text="Data Source", font=(self.font_2, 15, "bold"), bg=self.color_1, fg=self.color_4).place(x=40,y=240)
-        self.dataSource = Entry(self.frame_1, bg=self.color_4, fg=self.color_3)
-        self.dataSource.place(x=40,y=270, width=980)
+        self.dataSource_entry = Entry(self.frame_1, bg=self.color_4, fg=self.color_3)
+        self.dataSource_entry.place(x=40,y=270, width=980)
 
         self.submit_bt_1 = Button(self.frame_1, text='Submit', font=(self.font_1, 12), bd=2, command=partial(self.update_info, row), cursor="hand2", bg=self.color_2,fg=self.color_3).place(x=160,y=389,width=100)
         self.cancel_bt = Button(self.frame_1, text='Cancel', font=(self.font_1, 12), bd=2, command=self.clear_screen, cursor="hand2", bg=self.color_2,fg=self.color_3).place(x=280,y=389,width=100)
@@ -306,7 +306,7 @@ class Management:
             try:
                 connection = pymysql.connect(host=self.host, user=self.user, password=self.password, database=self.database)
                 curs = connection.cursor()
-                curs.execute("select * from fast_food where Name=%s", self.getName_entry.get())
+                curs.execute("select * from fast_food where Name=%s", self.Name_entry.get())
                 row=curs.fetchone()
 
                 if row!=None:
