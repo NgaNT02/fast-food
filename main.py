@@ -157,7 +157,7 @@ class Management:
         self.getName_entry = Entry(self.frame_1, font=(self.font_1, 12), bg=self.color_4, fg=self.color_3)
         self.getName_entry.place(x=163, y=110, width=800, height=30)
 
-        self.submit_bt_2 = Button(self.frame_1, text='Submit', font=(self.font_1, 15), bd=2, command=self.check_info_view, cursor="hand2", bg=self.color_4,fg=self.color_3).place(x=490,y=200,width=80)
+        self.submit_bt_2 = Button(self.frame_1, text='Submit', font=(self.font_1, 15), bd=2, command=self.check_info_update, cursor="hand2", bg=self.color_4,fg=self.color_3).place(x=490,y=200,width=80)
 
     # Remove all widgets from the frame 1
     def clear_screen(self):
@@ -213,29 +213,28 @@ class Management:
     def get_update_details(self, row):
         self.clear_screen()
 
-        self.Carbs = Label(self.frame_1, text="Carbs", font=(self.font_2, 15, "bold"), bg=self.color_1, fg=self.color_4).place(x=40,y=170)
+        self.Carbs = Label(self.frame_1, text="Carbs", font=(self.font_2, 18, "bold"), bg=self.color_1, fg=self.color_4).place(x=40,y=150)
         self.Carbs_entry = Entry(self.frame_1, bg=self.color_4, fg=self.color_3)
-        self.Carbs_entry.place(x=40,y=200, width=200)
+        self.Carbs_entry.place(x=50,y=185, width=200, height=30)
 
-        self.Protein = Label(self.frame_1, text="Protein", font=(self.font_2, 15, "bold"), bg=self.color_1, fg=self.color_4).place(x=300,y=170)
+        self.Protein = Label(self.frame_1, text="Protein", font=(self.font_2, 18, "bold"), bg=self.color_1, fg=self.color_4).place(x=300,y=150)
         self.Protein_entry = Entry(self.frame_1, bg=self.color_4, fg=self.color_3)
-        self.Protein.place(x=300,y=200, width=200)
+        self.Protein_entry.place(x=310,y=185, width=200, height=30)
 
-        self.Fat = Label(self.frame_1, text="Fat", font=(self.font_2, 15, "bold"), bg=self.color_1, fg=self.color_4).place(x=560,y=170)
+        self.Fat = Label(self.frame_1, text="Fat", font=(self.font_2, 18, "bold"), bg=self.color_1, fg=self.color_4).place(x=560,y=150)
         self.Fat_entry = Entry(self.frame_1, bg=self.color_4, fg=self.color_3)
-        self.Fat.place(x=560,y=200, width=200)
+        self.Fat_entry.place(x=570,y=185, width=200, height=30)
 
-        self.Calo = Label(self.frame_1, text="Calo", font=(self.font_2, 15, "bold"), bg=self.color_1, fg=self.color_4).place(x=820,y=170)
+        self.Calo = Label(self.frame_1, text="Calo", font=(self.font_2, 18, "bold"), bg=self.color_1, fg=self.color_4).place(x=820,y=150)
         self.Calo_entry = Entry(self.frame_1, bg=self.color_4, fg=self.color_3)
-        self.Calo_entry.place(x=820,y=200, width=200)
+        self.Calo_entry.place(x=830,y=185, width=200, height=30)
 
-        self.dataSource = Label(self.frame_1, text="Data Source", font=(self.font_2, 15, "bold"), bg=self.color_1, fg=self.color_4).place(x=40,y=240)
+        self.dataSource = Label(self.frame_1, text="Data Source", font=(self.font_2, 18, "bold"), bg=self.color_1, fg=self.color_4).place(x=40,y=270)
         self.dataSource_entry = Entry(self.frame_1, bg=self.color_4, fg=self.color_3)
-        self.dataSource_entry.place(x=40,y=270, width=980)
+        self.dataSource_entry.place(x=50,y=305, width=980, height=30)
 
-        self.submit_bt_1 = Button(self.frame_1, text='Submit', font=(self.font_1, 12), bd=2, command=partial(self.update_info, row), cursor="hand2", bg=self.color_2,fg=self.color_3).place(x=160,y=389,width=100)
-        self.cancel_bt = Button(self.frame_1, text='Cancel', font=(self.font_1, 12), bd=2, command=self.clear_screen, cursor="hand2", bg=self.color_2,fg=self.color_3).place(x=280,y=389,width=100)
-
+        self.submit_bt_1 = Button(self.frame_1, text='Submit', font=(self.font_1, 15), bd=2, command=partial(self.update_info, row), cursor="hand2", bg=self.color_4,fg=self.color_3).place(x=160,y=425,width=100)
+        self.cancel_bt = Button(self.frame_1, text='Cancel', font=(self.font_1, 15), bd=2, command=self.clear_screen, cursor="hand2", bg=self.color_4,fg=self.color_3).place(x=280,y=425,width=100)
     
     # Within frame 1, it displays information about fast food information
     def show_info(self, row):
@@ -269,13 +268,13 @@ class Management:
 
     # Updates fast food information
     def update_info(self, row):
-        if self.getName_entry.get() == '':
+        if self.Carbs_entry.get() == '' or self.Protein_entry.get() == '' or self.Fat_entry.get() == '' or self.Calo_entry.get() == '' or self.dataSource_entry.get() == '':
             messagebox.showerror("Error!", "All fields are required",parent=self.window)
         else:
             try:
                 connection = pymysql.connect(host=self.host, user=self.user, password=self.password, database=self.database)
                 curs = connection.cursor()
-                curs.execute("SELECT * FROM fast_food WHERE Name=%s", row[8])
+                curs.execute("SELECT * FROM fast_food WHERE Name=%s", row[3])
                 row=curs.fetchone()
 
                 if row==None:
@@ -288,7 +287,7 @@ class Management:
                                             self.Fat_entry.get(),
                                             self.Calo_entry.get(),
                                             self.dataSource_entry.get(),
-                                            row[8]
+                                            row[3]
                                         ))
                     connection.commit()
                     connection.close()
