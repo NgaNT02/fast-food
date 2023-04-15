@@ -10,7 +10,7 @@ import credentials as cr
 class Management:
     def __init__(self, root):
         self.window = root
-        self.window.title("FAST FOOD INFORMATION MANAGEMENT SYSTEM")
+        self.window.title("FAST FOOD INFORMATION MANAGEMENT SYSTEM (KFC & BURGER KING)")
         self.window.geometry("1350x750+0+0")
         self.window.config(bg="white")
 
@@ -100,39 +100,39 @@ class Management:
     def add_food(self):
         self.clear_screen()
 
-        self.No = Label(self.frame_1, text="No", font=(self.font_2, 18, "bold"), bg=self.color_1, fg=self.color_4).place(x=40,y=30)
+        self.No = Label(self.frame_1, text="No", font=(self.font_2, 18, "bold"), bg=self.color_1, fg=self.color_3).place(x=40,y=30)
         self.No_entry = Entry(self.frame_1, bg=self.color_4, fg=self.color_3)
         self.No_entry.place(x=50,y=65, width=200, height=30)
 
-        self.Brand = Label(self.frame_1, text="Brand", font=(self.font_2, 18, "bold"), bg=self.color_1, fg=self.color_4).place(x=40,y=150)
+        self.Brand = Label(self.frame_1, text="Brand", font=(self.font_2, 18, "bold"), bg=self.color_1, fg=self.color_3).place(x=40,y=150)
         self.Brand_entry = Entry(self.frame_1, bg=self.color_4, fg=self.color_3)
         self.Brand_entry.place(x=50,y=185, width=200, height=30)
 
-        self.Type = Label(self.frame_1, text="Type", font=(self.font_2, 18, "bold"), bg=self.color_1, fg=self.color_4).place(x=300,y=150)
+        self.Type = Label(self.frame_1, text="Type", font=(self.font_2, 18, "bold"), bg=self.color_1, fg=self.color_3).place(x=300,y=150)
         self.Type_entry = Entry(self.frame_1, bg=self.color_4, fg=self.color_3)
         self.Type_entry.place(x=310,y=185, width=200, height=30)
 
-        self.Name = Label(self.frame_1, text="Name", font=(self.font_2, 18, "bold"), bg=self.color_1, fg=self.color_4).place(x=560,y=150)
+        self.Name = Label(self.frame_1, text="Name", font=(self.font_2, 18, "bold"), bg=self.color_1, fg=self.color_3).place(x=560,y=150)
         self.Name_entry = Entry(self.frame_1, bg=self.color_4, fg=self.color_3)
         self.Name_entry.place(x=570,y=185, width=200, height=30)
 
-        self.Carbs = Label(self.frame_1, text="Carbs", font=(self.font_2, 18, "bold"), bg=self.color_1, fg=self.color_4).place(x=40,y=270)
+        self.Carbs = Label(self.frame_1, text="Carbs", font=(self.font_2, 18, "bold"), bg=self.color_1, fg=self.color_3).place(x=40,y=270)
         self.Carbs_entry = Entry(self.frame_1, bg=self.color_4, fg=self.color_3)
         self.Carbs_entry.place(x=50,y=305, width=200, height=30)
 
-        self.Protein = Label(self.frame_1, text="Protein", font=(self.font_2, 18, "bold"), bg=self.color_1, fg=self.color_4).place(x=300,y=270)
+        self.Protein = Label(self.frame_1, text="Protein", font=(self.font_2, 18, "bold"), bg=self.color_1, fg=self.color_3).place(x=300,y=270)
         self.Protein_entry = Entry(self.frame_1, bg=self.color_4, fg=self.color_3)
         self.Protein_entry.place(x=310,y=305, width=200, height=30)
 
-        self.Fat = Label(self.frame_1, text="Fat", font=(self.font_2, 18, "bold"), bg=self.color_1, fg=self.color_4).place(x=560,y=270)
+        self.Fat = Label(self.frame_1, text="Fat", font=(self.font_2, 18, "bold"), bg=self.color_1, fg=self.color_3).place(x=560,y=270)
         self.Fat_entry = Entry(self.frame_1, bg=self.color_4, fg=self.color_3)
         self.Fat_entry.place(x=570,y=305, width=200, height=30)
 
-        self.Calo = Label(self.frame_1, text="Calo", font=(self.font_2, 18, "bold"), bg=self.color_1, fg=self.color_4).place(x=820,y=270)
+        self.Calo = Label(self.frame_1, text="Calo", font=(self.font_2, 18, "bold"), bg=self.color_1, fg=self.color_3).place(x=820,y=270)
         self.Calo_entry = Entry(self.frame_1, bg=self.color_4, fg=self.color_3)
         self.Calo_entry.place(x=830,y=305, width=200, height=30)
 
-        self.dataSource = Label(self.frame_1, text="Data Source", font=(self.font_2, 18, "bold"), bg=self.color_1, fg=self.color_4).place(x=40,y=390)
+        self.dataSource = Label(self.frame_1, text="Data Source", font=(self.font_2, 18, "bold"), bg=self.color_1, fg=self.color_3).place(x=40,y=390)
         self.dataSource_entry = Entry(self.frame_1, bg=self.color_4, fg=self.color_3)
         self.dataSource_entry.place(x=50,y=425, width=980, height=30)
 
@@ -143,7 +143,7 @@ class Management:
     def get_info_view(self):
         self.clear_screen()
 
-        self.getName = Label(self.frame_1, text="Enter name", font=(self.font_2, 18, "bold"), bg=self.color_1, fg=self.color_4).place(x=140,y=70)
+        self.getName = Label(self.frame_1, text="Enter name", font=(self.font_2, 18, "bold"), bg=self.color_1, fg=self.color_3).place(x=140,y=70)
         self.getName_entry = Entry(self.frame_1, font=(self.font_1, 12), bg=self.color_4, fg=self.color_3)
         self.getName_entry.place(x=163, y=110, width=800, height=30)
 
@@ -153,7 +153,7 @@ class Management:
     def get_info_update(self):
         self.clear_screen()
 
-        self.getName = Label(self.frame_1, text="Enter name", font=(self.font_2, 18, "bold"), bg=self.color_1, fg=self.color_4).place(x=140,y=70)
+        self.getName = Label(self.frame_1, text="Enter name", font=(self.font_2, 18, "bold"), bg=self.color_1, fg=self.color_3).place(x=140,y=70)
         self.getName_entry = Entry(self.frame_1, font=(self.font_1, 12), bg=self.color_4, fg=self.color_3)
         self.getName_entry.place(x=163, y=110, width=800, height=30)
 
@@ -213,23 +213,23 @@ class Management:
     def get_update_details(self, row):
         self.clear_screen()
 
-        self.Carbs = Label(self.frame_1, text="Carbs", font=(self.font_2, 18, "bold"), bg=self.color_1, fg=self.color_4).place(x=40,y=150)
+        self.Carbs = Label(self.frame_1, text="Carbs", font=(self.font_2, 18, "bold"), bg=self.color_1, fg=self.color_3).place(x=40,y=150)
         self.Carbs_entry = Entry(self.frame_1, bg=self.color_4, fg=self.color_3)
         self.Carbs_entry.place(x=50,y=185, width=200, height=30)
 
-        self.Protein = Label(self.frame_1, text="Protein", font=(self.font_2, 18, "bold"), bg=self.color_1, fg=self.color_4).place(x=300,y=150)
+        self.Protein = Label(self.frame_1, text="Protein", font=(self.font_2, 18, "bold"), bg=self.color_1, fg=self.color_3).place(x=300,y=150)
         self.Protein_entry = Entry(self.frame_1, bg=self.color_4, fg=self.color_3)
         self.Protein_entry.place(x=310,y=185, width=200, height=30)
 
-        self.Fat = Label(self.frame_1, text="Fat", font=(self.font_2, 18, "bold"), bg=self.color_1, fg=self.color_4).place(x=560,y=150)
+        self.Fat = Label(self.frame_1, text="Fat", font=(self.font_2, 18, "bold"), bg=self.color_1, fg=self.color_3).place(x=560,y=150)
         self.Fat_entry = Entry(self.frame_1, bg=self.color_4, fg=self.color_3)
         self.Fat_entry.place(x=570,y=185, width=200, height=30)
 
-        self.Calo = Label(self.frame_1, text="Calo", font=(self.font_2, 18, "bold"), bg=self.color_1, fg=self.color_4).place(x=820,y=150)
+        self.Calo = Label(self.frame_1, text="Calo", font=(self.font_2, 18, "bold"), bg=self.color_1, fg=self.color_3).place(x=820,y=150)
         self.Calo_entry = Entry(self.frame_1, bg=self.color_4, fg=self.color_3)
         self.Calo_entry.place(x=830,y=185, width=200, height=30)
 
-        self.dataSource = Label(self.frame_1, text="Data Source", font=(self.font_2, 18, "bold"), bg=self.color_1, fg=self.color_4).place(x=40,y=270)
+        self.dataSource = Label(self.frame_1, text="Data Source", font=(self.font_2, 18, "bold"), bg=self.color_1, fg=self.color_3).place(x=40,y=270)
         self.dataSource_entry = Entry(self.frame_1, bg=self.color_4, fg=self.color_3)
         self.dataSource_entry.place(x=50,y=305, width=980, height=30)
 
@@ -239,31 +239,31 @@ class Management:
     # Within frame 1, it displays information about fast food information
     def show_info(self, row):
         self.clear_screen()
-        No = Label(self.frame_1, text="No", font=(self.font_2, 18, "bold"), bg=self.color_1, fg=self.color_4).place(x=40,y=30)
+        No = Label(self.frame_1, text="No", font=(self.font_2, 18, "bold"), bg=self.color_1, fg=self.color_3).place(x=40,y=30)
         No_data = Label(self.frame_1, text=row[0], font=(self.font_1, 15)).place(x=50, y=60)
 
-        Brand = Label(self.frame_1, text="Brand", font=(self.font_2, 18, "bold"), bg=self.color_1, fg=self.color_4).place(x=40,y=100)
+        Brand = Label(self.frame_1, text="Brand", font=(self.font_2, 18, "bold"), bg=self.color_1, fg=self.color_3).place(x=40,y=100)
         Brand_data = Label(self.frame_1, text=row[1], font=(self.font_1, 15)).place(x=50, y=130)
 
-        Type = Label(self.frame_1, text="Type", font=(self.font_2, 18, "bold"), bg=self.color_1, fg=self.color_4).place(x=300,y=100)
+        Type = Label(self.frame_1, text="Type", font=(self.font_2, 18, "bold"), bg=self.color_1, fg=self.color_3).place(x=300,y=100)
         Type_data = Label(self.frame_1, text=row[2], font=(self.font_1, 15)).place(x=310, y=130)
 
-        Name = Label(self.frame_1, text="Name", font=(self.font_2, 18, "bold"), bg=self.color_1, fg=self.color_4).place(x=560,y=100)
+        Name = Label(self.frame_1, text="Name", font=(self.font_2, 18, "bold"), bg=self.color_1, fg=self.color_3).place(x=560,y=100)
         Name_data = Label(self.frame_1, text=row[3], font=(self.font_1, 15)).place(x=570, y=130)
 
-        Carbs = Label(self.frame_1, text="Carbs", font=(self.font_2, 18, "bold"), bg=self.color_1, fg=self.color_4).place(x=40,y=170)
+        Carbs = Label(self.frame_1, text="Carbs", font=(self.font_2, 18, "bold"), bg=self.color_1, fg=self.color_3).place(x=40,y=170)
         Carbs_data = Label(self.frame_1, text=row[4], font=(self.font_1, 15)).place(x=50, y=200)
 
-        Protein = Label(self.frame_1, text="Protein", font=(self.font_2, 18, "bold"), bg=self.color_1, fg=self.color_4).place(x=300,y=170)
+        Protein = Label(self.frame_1, text="Protein", font=(self.font_2, 18, "bold"), bg=self.color_1, fg=self.color_3).place(x=300,y=170)
         Protein_data = Label(self.frame_1, text=row[5], font=(self.font_1, 15)).place(x=310, y=200)
 
-        Fat = Label(self.frame_1, text="Fat", font=(self.font_2, 18, "bold"), bg=self.color_1, fg=self.color_4).place(x=560,y=170)
+        Fat = Label(self.frame_1, text="Fat", font=(self.font_2, 18, "bold"), bg=self.color_1, fg=self.color_3).place(x=560,y=170)
         Fat_data = Label(self.frame_1, text=row[6], font=(self.font_1, 15)).place(x=570, y=200)
 
-        Calo = Label(self.frame_1, text="Calo", font=(self.font_2, 18, "bold"), bg=self.color_1, fg=self.color_4).place(x=820,y=170)
+        Calo = Label(self.frame_1, text="Calo", font=(self.font_2, 18, "bold"), bg=self.color_1, fg=self.color_3).place(x=820,y=170)
         Calo_data = Label(self.frame_1, text=row[7], font=(self.font_1, 15)).place(x=830, y=200)
 
-        dataSource = Label(self.frame_1, text="Data Source", font=(self.font_2, 18, "bold"), bg=self.color_1, fg=self.color_4).place(x=40,y=240)
+        dataSource = Label(self.frame_1, text="Data Source", font=(self.font_2, 18, "bold"), bg=self.color_1, fg=self.color_3).place(x=40,y=240)
         dataSource_data = Label(self.frame_1, text=row[8], font=(self.font_1, 15)).place(x=50, y=270)
 
     # Updates fast food information
