@@ -29,14 +29,17 @@ class Management:
         self.user = cr.user
         self.password = cr.password
         self.database = cr.database
+        
+        # Open backgroud photo on left Frame
+        self.img = ImageTk.PhotoImage(Image.open("C:/Users/nguye/Desktop/fastfood2.png"))
 
         # Left Frame
-        self.img = ImageTk.PhotoImage(Image.open("C:/Users/nguye/Desktop/fastfood2.png"))
         self.frame_1 = Frame(self.window)
-        self.frame_1 = Label(root, image = self.img)
+        self.frame_1 = Label(self.window, image = self.img)
         self.frame_1.place(x=0, y=0, width=1000, relheight=1)
         
-        self.title_label = Label(self.frame_1, text="Fast Food Information Management System", font=(self.font_1, 15, "bold"), padx=1000, pady=15, border=0, bg=self.color_4, relief=GROOVE)
+        # Title label on left Frame
+        self.title_label = Label(self.frame_1, text="Fast Food Information Management System", font=(self.font_1, 15, "bold"), padx=1000, pady=15, border=4, bg=self.color_4, relief=GROOVE)
         self.title_label.pack(side=TOP, fill=X)
 
         # Right Frame
@@ -221,23 +224,23 @@ class Management:
 
         self.Carbs = Label(self.frame_1, text="Carbs", font=(self.font_2, 18, "bold"), bg=self.color_4, fg=self.color_3).place(x=40,y=150)
         self.Carbs_entry = Entry(self.frame_1, bg=self.color_4, fg=self.color_3)
-        self.Carbs_entry.place(x=50,y=185, width=200, height=30)
+        self.Carbs_entry.place(x=50,y=185, width=150, height=30)
 
         self.Protein = Label(self.frame_1, text="Protein", font=(self.font_2, 18, "bold"), bg=self.color_4, fg=self.color_3).place(x=300,y=150)
         self.Protein_entry = Entry(self.frame_1, bg=self.color_4, fg=self.color_3)
-        self.Protein_entry.place(x=310,y=185, width=200, height=30)
+        self.Protein_entry.place(x=310,y=185, width=150, height=30)
 
         self.Fat = Label(self.frame_1, text="Fat", font=(self.font_2, 18, "bold"), bg=self.color_4, fg=self.color_3).place(x=560,y=150)
         self.Fat_entry = Entry(self.frame_1, bg=self.color_4, fg=self.color_3)
-        self.Fat_entry.place(x=570,y=185, width=200, height=30)
+        self.Fat_entry.place(x=570,y=185, width=150, height=30)
 
         self.Calo = Label(self.frame_1, text="Calo", font=(self.font_2, 18, "bold"), bg=self.color_4, fg=self.color_3).place(x=820,y=150)
         self.Calo_entry = Entry(self.frame_1, bg=self.color_4, fg=self.color_3)
-        self.Calo_entry.place(x=830,y=185, width=200, height=30)
+        self.Calo_entry.place(x=830,y=185, width=150, height=30)
 
         self.dataSource = Label(self.frame_1, text="Data Source", font=(self.font_2, 18, "bold"), bg=self.color_4, fg=self.color_3).place(x=40,y=270)
         self.dataSource_entry = Entry(self.frame_1, bg=self.color_4, fg=self.color_3)
-        self.dataSource_entry.place(x=50,y=305, width=980, height=30)
+        self.dataSource_entry.place(x=50,y=305, width=930, height=30)
 
         self.submit_bt_1 = Button(self.frame_1, text='Submit', font=(self.font_1, 15), bd=2, command=partial(self.update_info, row), cursor="hand2", bg=self.color_4,fg=self.color_3).place(x=160,y=425,width=100)
         self.cancel_bt = Button(self.frame_1, text='Cancel', font=(self.font_1, 15), bd=2, command=self.clear_screen, cursor="hand2", bg=self.color_4,fg=self.color_3).place(x=280,y=425,width=100)
